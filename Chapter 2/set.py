@@ -7,4 +7,5 @@ alphabets = set("qwertzuiopasdfghjklyxcvbnm")
 print(alphabets)
 
 
-cities = {}
+cities = frozenset([ "Frankfurt" , "Kroberg im Tauns" , "Könistein im Tauns" ])
+print(cities)
